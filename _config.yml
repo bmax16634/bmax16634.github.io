@@ -1,11 +1,9 @@
 title: Ben Maxwell - Portfolio
 author: Ben Maxwell
 email: bmax16634@gmail.com
-description: Ben Maxwell - Computer Vision, iOS, AI, Machine Learning, Artificial Intelligence, Swit, Python, Objective-C, Deep Learning, Self-Driving Cars
-url: "https://https://bmax16634.github.io/"
-twitter_username: gsurma
-github_username:  gsurma
-google_analytics: UA-110543961-1
+description: Ben Maxwell — machine learning and AI engineer. Training language models from scratch and shipping full-stack AI tools.
+url: "https://bmax16634.github.io"
+github_username: bmax16634
 
 theme: jekyll-theme-minimal
 plugins:
