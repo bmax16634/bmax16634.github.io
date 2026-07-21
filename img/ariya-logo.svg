@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Ariya logo</title>
+  <desc id="desc">Abstract AI workbench logo with connected panes and a central assistant node.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081D2E"/>
+      <stop offset="0.52" stop-color="#123A52"/>
+      <stop offset="1" stop-color="#E6A23C"/>
+    </linearGradient>
+    <linearGradient id="pane" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#DCE8F2"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#03101B" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="700" rx="48" fill="url(#bg)"/>
+  <circle cx="1000" cy="120" r="210" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="165" cy="600" r="260" fill="#FFFFFF" opacity="0.06"/>
+  <g filter="url(#shadow)">
+    <rect x="160" y="150" width="880" height="400" rx="36" fill="#FFFFFF" opacity="0.12"/>
+    <rect x="210" y="205" width="235" height="290" rx="26" fill="url(#pane)"/>
+    <rect x="482" y="205" width="235" height="290" rx="26" fill="url(#pane)"/>
+    <rect x="755" y="205" width="235" height="290" rx="26" fill="url(#pane)"/>
+    <path d="M445 350h72M682 350h73" fill="none" stroke="#F4B450" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="600" cy="350" r="76" fill="#081D2E"/>
+    <circle cx="600" cy="350" r="46" fill="#F4B450"/>
+    <path d="M580 358l18 18 38-54" fill="none" stroke="#081D2E" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M260 275h135M260 333h100M260 391h150" stroke="#123A52" stroke-width="18" stroke-linecap="round" opacity="0.78"/>
+    <path d="M795 275h135M795 333h100M795 391h150" stroke="#123A52" stroke-width="18" stroke-linecap="round" opacity="0.78"/>
+  </g>
+  <text x="600" y="630" text-anchor="middle" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="72" font-weight="800" fill="#F8FBFF" letter-spacing="8">ARIYA</text>
+</svg>
